@@ -1,8 +1,8 @@
 {
   "name": "@pakt.digital/fluidscroll",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "",
-  "main": "./dist/scroll.js",
+  "main": "scroll.js",
   "scripts": {
     "watch": "webpack --config webpack.config.js --watch",
     "build": "webpack --config webpack.config.js",
