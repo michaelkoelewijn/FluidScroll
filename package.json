@@ -1,6 +1,6 @@
 {
   "name": "@pakt.digital/fluidscroll",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "scroll.js",
   "scripts": {
