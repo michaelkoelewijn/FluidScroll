@@ -1,0 +1,25 @@
+{
+  "name": "@pakt.digital/fluidscroll",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/scroll.js",
+  "scripts": {
+    "watch": "webpack --config webpack.config.js --watch",
+    "build": "webpack --config webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michaelkoelewijn/FluidScroll.git"
+  },
+  "author": "Michael Koelewijn <michael.koelewijn@pakt.digital> (https://github.com/michaelkoelewijn)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/michaelkoelewijn/FluidScroll/issues"
+  },
+  "homepage": "https://github.com/michaelkoelewijn/FluidScroll#readme",
+  "devDependencies": {
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.9"
+  }
+}
