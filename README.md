@@ -28,7 +28,7 @@ let scroll = new FluidScroll()
 
 //With options
 let scroll = new FluidScroll({
-    speed: 60
+    speed: 60,
     smoothing: 12
 })
 ```
