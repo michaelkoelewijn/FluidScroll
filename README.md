@@ -24,13 +24,17 @@ import FluidScroll from "@pakt.digital/fluidscroll"
 #### Usage
 ```javascript
 //Without options - using defaults
-let scroll = new FluidScroll()
+let scroll = new FluidScroll();
 
 //With options
 let scroll = new FluidScroll({
     speed: 60,
     smoothing: 12
-})
+});
+
+
+//Call to enable smoothness
+scroll.init();
 ```
 
 #### Options
@@ -38,3 +42,6 @@ let scroll = new FluidScroll({
 |---|---|---|---|
 | speed | int | 60 | the amout of pixels to be scrolled per mousewheel step |
 | smoothing | int | 12 | the smoothness factor, the higher the value, the more smooth. |
+| init | function |  | Call to enable smooth scrolling |
+| destroy | function |  | Call to destroy smooth scrolling |
+| setPosition | function |  | Use to set a position after a scroll position change triggered by something else (anchor link or custom functionality) |

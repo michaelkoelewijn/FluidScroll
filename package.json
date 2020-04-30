@@ -1,6 +1,6 @@
 {
   "name": "@pakt.digital/fluidscroll",
-  "version": "1.0.5",
+  "version": "1.0.7",
   "description": "FluidScroll is a lightweight, modern, customizable and ease to use plugin that will enhance the user experience on your websites by overriding the default scroll.",
   "main": "scroll.js",
   "scripts": {

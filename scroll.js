@@ -28,6 +28,10 @@ export default class FluidScroll {
         cancelAnimationFrame(this.raf)
     }
 
+    setPosition(pos) {
+        this.pos = pos;
+    }
+
     scroll(e) {
         e.preventDefault(); // disable default scrolling
         var delta = normalizeWheelDelta(e)
